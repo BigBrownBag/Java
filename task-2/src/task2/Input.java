@@ -21,12 +21,11 @@ public class Input {
         return newMap;
     }
 
-    public static String getArray() {
+    public static String getString() {
         System.out.println("Task №3");
-        System.out.println("Input array:");
-        System.out.println("Пример данных: \"Ivan 5\",\"Petr 3\",\"Alex 10\",\"Petr 8\",\"Ivan 6\",\"Alex 5\",\"Ivan 1\",\"Petr 5\",\"Alex 1\"");
-        Scanner inputData = new Scanner(System.in);
-        String data = inputData.nextLine();
+        System.out.println("Input array of strings:");
+        System.out.println("\"Ivan 5\",\"Petr 3\",\"Alex 10\",\"Petr 8\",\"Ivan 6\",\"Alex 5\",\"Ivan 1\",\"Petr 5\",\"Alex 1\"");
+        String data = "\"Ivan 5\",\"Petr 3\",\"Alex 10\",\"Petr 8\",\"Ivan 6\",\"Alex 5\",\"Ivan 1\",\"Petr 5\",\"Alex 1\"";
         return data;
     }
 }

@@ -35,10 +35,10 @@ public class Main extends Input {
         return invertedMap;
     }
 
-
-
     public static void main(String[] args) throws IOException {
         removeDuplicates(getCollection());
         invertKeysAndValues(getMap());
+        Player findPlayer = new Player();
+        findPlayer.start();
     }
 }
